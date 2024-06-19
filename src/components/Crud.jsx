@@ -77,7 +77,6 @@ function Crud() {
         <p className="footer-title">Новая заметка</p>
         <textarea
           id="new-note-content"
-          placeholder="Новая заметка"
           value={newNoteContent}
           // Обновление состояния при вводе текста
           onChange={(e) => setNewNoteContent(e.target.value)}
