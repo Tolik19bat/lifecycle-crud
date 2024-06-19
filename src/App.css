@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-title {
+  margin-bottom: 1rem;
+}
+
+.crud-update-btn {
+  background-image: url(/src/img/update.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.crud-off-btn {
+  background-image: url(/src/img/close.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-size: 70%;
+  position: absolute;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  top: -13px;
+  right: -17px;
+}
+
+.note-card {
+  margin: 0 1.2rem 1.4rem 0;
+  border: 1px solid black;
+  word-break: break-all;
+  position: relative;
+  line-height: 2rem;
+  display: flex;
+  padding: 22px;
+  width: 200px;
+}
+
+textarea {
+  width: 20rem;
+  height: 7rem;
+}
+
+.add-button {
+  background-image: url(/src/img/arrow.png);
+  background-position: 6px center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-size: 70%;
+  position: absolute;
+  cursor: pointer;
+  bottom: 10px;
+  right: 5px;
+  width: 2rem;
+  height: 2rem;
+}
